@@ -28,7 +28,6 @@ Projenin yerel makinenizde çalıştırılması için aşağıdaki adımları iz
    ```sh
    git clone https://github.com/username/proje.git
 
-# LICANCE
 ## Lisans
 
 Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Detaylı bilgi için [Lisans Dosyası](LICENSE) dosyasına bakabilirsiniz.
