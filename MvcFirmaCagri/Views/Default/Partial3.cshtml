@@ -1,0 +1,56 @@
+﻿@using MvcFirmaCagri.Models.Entitiy
+@model List<tblMesajlar>
+<div class="accordions">
+    <div class="row">
+        <div class="col-lg-12 mb-4">
+            <div class="card card_border">
+                <div class="card-header chart-grid__header">
+                    Yardım Menüsü
+                </div>
+                <div class="card-body">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header bg-white p-0" id="headingOne">
+                                <a href="#" class="card__title p-3" data-toggle="collapse" data-target="#collapseOne"
+                                   aria-expanded="true" aria-controls="collapseOne">Çağrı Problemleri</a>
+                            </div>
+                            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                 data-parent="#accordionExample">
+                                <div class="card-body para__style">
+                                   Çağrılarda bir sorun yaşarsanız web sitemizin panel kısmında yer alan irtibat numarası üzerinden bize ulaştığınız takdirde
+                                    hemen işlemlerinize çözüm sağlayacağız.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header bg-white p-0" id="headingTwo">
+                                <a href="#" class="card__title p-3" data-toggle="collapse" data-target="#collapseTwo"
+                                   aria-expanded="false" aria-controls="collapseTwo">Mesaj ve bildirmler</a>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body para__style">Size gönderilmiş olan mesaj ve bildirimleri sağ üst taraftaki bildirim sekmesinden yönetebilirsiniz.
+                                Admin veya diğer firmalarla mesajlaşabilir bu firmalarla iletişim halinde kalarak iş birliktelerinizi
+                                 yönetebilirsiniz.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header bg-white p-0" id="headingThree">
+                                <a href="#" class="card__title p-3" data-toggle="collapse" data-target="#collapseThree"
+                                   aria-expanded="false" aria-controls="collapseThree">
+                                    Yeni Çağrı İşlemi
+                                </a>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                 data-parent="#accordionExample">
+                                <div class="card-body para__style">
+                                    web sitemizin panel kısmına girip çağrılar sekmesinin hemen altında bulunan yeni çağrı alanına tıklayıp sisteminizde yaşadığınız sorunları bize ulaştırdığınız takdirde en kısa sürede size dönüş yapılacaktır.Teknik çağrı ekibimiz 08.00/22.00 saatleri arasında hizmet vermektedir.Bağlantı kurabilmek için bilgisayarınıza uzak bağlantı programı indirmeyi unutmayınız.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

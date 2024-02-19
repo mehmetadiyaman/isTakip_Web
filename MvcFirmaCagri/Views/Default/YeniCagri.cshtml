@@ -1,0 +1,17 @@
+﻿@model MvcFirmaCagri.Models.Entitiy.tblCagrilar
+@{
+    ViewBag.Title = "YeniCagri";
+    Layout = "~/Views/Shared/FirmaLayout.cshtml";
+}
+<h2>Yeni Çağrı Ekleme Sayfası</h2>
+<br />
+<form method="post">
+    @Html.Label("Konu")
+    @Html.TextBoxFor(x => x.Konu, new { @class = "form-control" })
+    <br />
+    @Html.Label("Açıklama")
+    @Html.TextAreaFor(x => x.Aciklama, 10, 4, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-primary">Çağrı Oluştur</button>
+</form>
+

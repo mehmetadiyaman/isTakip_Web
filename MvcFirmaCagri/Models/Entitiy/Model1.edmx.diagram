@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="28d555978b6e424c9355d4d6788cd8d4" Name="Diagram1">
+        <EntityTypeShape EntityType="DbisTAKİPModel.tblCagrilar" Width="1.5" PointX="3" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbisTAKİPModel.tblDepartmanlar" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbisTAKİPModel.tblFirmalar" Width="1.5" PointX="0.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbisTAKİPModel.tblGorevDetaylar" Width="1.5" PointX="7.5" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbisTAKİPModel.tblGorevler" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbisTAKİPModel.tblPersonel" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DbisTAKİPModel.FK_tblCagrilar_tblFirmalar" ManuallyRouted="false" />
+        <AssociationConnector Association="DbisTAKİPModel.FK_tblPersonel_tblDepartmanlar" ManuallyRouted="false" />
+        <AssociationConnector Association="DbisTAKİPModel.FK_tblGorevDetaylar_tblGorevler" ManuallyRouted="false" />
+        <AssociationConnector Association="DbisTAKİPModel.FK_tblGorevler_tblPersonel" ManuallyRouted="false" />
+        <AssociationConnector Association="DbisTAKİPModel.FK_tblGorevler_tblPersonel2" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DbisTAKİPModel.tblCagriDetay" Width="1.5" PointX="5.25" PointY="7.5" />
+        <AssociationConnector Association="DbisTAKİPModel.FK_tblCagriDetay_tblCagrilar" />
+        <EntityTypeShape EntityType="DbisTAKİPModel.tblMesajlar" Width="1.5" PointX="7.375" PointY="7.75" />
+        <AssociationConnector Association="DbisTAKİPModel.FK_tblMesajlar_tblFirmalar" />
+        <AssociationConnector Association="DbisTAKİPModel.FK_tblMesajlar_tblFirmalar1" />
+        <AssociationConnector Association="DbisTAKİPModel.FK_tblCagrilar_tblPersonel" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
