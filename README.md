@@ -26,7 +26,7 @@ Projenin yerel makinenizde çalıştırılması için aşağıdaki adımları iz
 
 1. Projenin kopyasını alın:
    ```sh
-   git clone https://github.com/username/proje.git
+   git clone https://github.com/mehmetadiyaman/isTakip_Web.git
 
 ## Lisans
 
